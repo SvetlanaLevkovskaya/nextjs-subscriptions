@@ -21,7 +21,9 @@ export const SubscriptionCard: FC<SubscriptionCardProps> = ({
         <p className="text-lg font-semibold mb-4">{price}</p>
       </div>
       <div className="flex justify-end">
-        <button className="bg-blue-600 text-white py-2 px-4 rounded">{buttonText}</button>
+        <button className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-800 transition duration-200">
+          {buttonText}
+        </button>
       </div>
     </div>
   )
